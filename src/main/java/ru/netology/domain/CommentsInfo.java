@@ -3,9 +3,9 @@ package ru.netology.domain;
 public class CommentsInfo {
 
     private int commentCounter; //count в документации
-    private int can_post; //из документации
-    private int groups_can_post; //из документации
-    private boolean can_close; //из документации
-    private boolean can_open; //из документации
+    private int canPost; //из документации
+    private int groupsCanPost; //из документации
+    private boolean canClose; //из документации
+    private boolean canOpen; //из документации
 
 }

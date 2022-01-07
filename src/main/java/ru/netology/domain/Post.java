@@ -2,12 +2,12 @@ package ru.netology.domain;
 
 public class Post {
     private int id;
-    private int owner_id; //из документации
-    private int from_id; //из документации
-    private int created_by; //из документации
-    private int reply_owner_id; //из документации
-    private int reply_post_id; //из документации
-    private int friends_only; //из документации
+    private int ownerId; //из документации
+    private int fromId; //из документации
+    private int createdBy; //из документации
+    private int replyOwnerId; //из документации
+    private int replyPostId; //из документации
+    private int friendsOnly; //из документации
     private int date;
     private String postContents; //text в документации
 
@@ -20,15 +20,15 @@ public class Post {
     private PostSource postSource;
     private Donut donut;
 
-    private String post_type; //из документации
-    private int signer_id; //из документации
-    private int can_pin; //из документации
-    private int can_delete; //из документации
-    private int can_edit; //из документации
-    private int is_pinned; //из документации
-    private int marked_as_ads; //из документации
-    private boolean is_favorite; //из документации
-    private int postponed_id; //из документации
+    private String postType; //из документации
+    private int signerId; //из документации
+    private int canPin; //из документации
+    private int canDelete; //из документации
+    private int canEdit; //из документации
+    private int isPinned; //из документации
+    private int markedAsAds; //из документации
+    private boolean isFavorite; //из документации
+    private int postponedId; //из документации
 
 
 // + getters/setters
